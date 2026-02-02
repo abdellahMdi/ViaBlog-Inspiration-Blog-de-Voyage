@@ -1,192 +1,289 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link
+            href="
 https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css
-" rel="stylesheet" />
-    <title>Document</title>
-</head>
+"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
 
-<body>
-    <div class="container min-h-screen p-3">
-        <div class="flex justify-between text-2xl">
-            <i class="ri-menu-line"></i>
-            <i class="ri-search-line"></i>
-        </div>
-        <div class="pt-2">
-            <h2 class="text-2xl">bloger of the week</h2>
-        </div>
-        <div class="flex mt-[10px]">
-            <div class="card flex flex-col items-center w-23 p-[3px]">
-                <img class="w-20 h-20 rounded-full" src="images/pexels-photo-1687675.webp" alt="" />
-                <h3>lan</h3>
+    <body>
+        <div class="container min-h-screen p-3">
+            <div class="flex justify-between text-2xl">
+                <i class="ri-menu-line"></i>
+                <i class="ri-search-line"></i>
             </div>
-            <div class="card flex flex-col items-center w-23 p-[3px]">
-                <img class="w-20 h-20 rounded-full" src="images/pexels-photo-1687675.webp" alt="" />
-                <h3>lan</h3>
+            <div class="pt-2">
+                <h2 class="text-2xl">bloger of the week</h2>
             </div>
-            <div class="card flex flex-col items-center w-23 p-[3px]">
-                <img class="w-20 h-20 rounded-full" src="images/pexels-photo-1687675.webp" alt="" />
-                <h3>lan</h3>
-            </div>
-            <div class="card flex flex-col items-center w-23 p-[3px]">
-                <img class="w-20 h-20 rounded-full" src="images/pexels-photo-1687675.webp" alt="" />
-                <h3>lan</h3>
-            </div>
-        </div>
-        <div class="pt-2">
-            <h2 class="text-2xl">What do you want to read ?</h2>
-        </div>
-        <div class="w-full h-12 overflow-x-scroll">
-            <div class="flex items-center w-[1000px] h-full">
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>All</h3>
+            <div class="flex mt-[10px]">
+                <div class="card flex flex-col items-center w-23 p-[3px]">
+                    <img
+                        class="w-20 h-20 rounded-full"
+                        src="images/pexels-photo-1687675.webp"
+                        alt=""
+                    />
+                    <h3>lan</h3>
                 </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>Forest</h3>
+                <div class="card flex flex-col items-center w-23 p-[3px]">
+                    <img
+                        class="w-20 h-20 rounded-full"
+                        src="images/pexels-photo-1687675.webp"
+                        alt=""
+                    />
+                    <h3>lan</h3>
                 </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>Beach</h3>
+                <div class="card flex flex-col items-center w-23 p-[3px]">
+                    <img
+                        class="w-20 h-20 rounded-full"
+                        src="images/pexels-photo-1687675.webp"
+                        alt=""
+                    />
+                    <h3>lan</h3>
                 </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>nature</h3>
-                </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>Mountains</h3>
-                </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>River</h3>
-                </div>
-                <div
-                    class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600">
-                    <h3>Canions</h3>
+                <div class="card flex flex-col items-center w-23 p-[3px]">
+                    <img
+                        class="w-20 h-20 rounded-full"
+                        src="images/pexels-photo-1687675.webp"
+                        alt=""
+                    />
+                    <h3>lan</h3>
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col items-center h-[1100px]">
-            
-            <div class="relative -2 w-[98%] h-70 mt-1 rounded-2xl border-1 overflow-hidden">
-                <img class="absolute top-0 w-full h-[70%] border-b-1" src="images/hik.webp" alt="River" />
-                <h3 class="absolute bottom-12 left-7 text-2xl">
-                    Yellow River
-                </h3>
-                <p class="absolute bottom-8 left-7 text-sm">
-                    By lan Jacobson
-                </p>
-                <div class="absolute z-1 text-4xl text-[#787171] right-3 top-2">
-                    <i class="ri-poker-hearts-line"></i>
-                </div>
-                <p class="absolute right-28 bottom-16 text-xs">China</p>
-                <div class="absolute right-36 bottom-16 text-xs">
-                    <i class="ri-map-pin-line"></i>
-                </div>
-                <p class="absolute right-13 bottom-16 text-xs">15 min</p>
-                <div class="absolute right-23 bottom-16 text-xs ">
-                    <i class="ri-time-line"></i>
-                </div>
-                <p class="absolute right-3 bottom-16 text-xs">12k</p>
-                <div class="absolute right-8 bottom-16 text-xs">
-                    <i class="ri-eye-line"></i>
-                </div>
+            <div class="pt-2">
+                <h2 class="text-2xl">What do you want to read ?</h2>
             </div>
-            <div class="flex justify-between w-[98%] h-50 overflow-hidden mt-3">
-                <div class=" border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden">
-                    <img class="absolute top-0 w-full h-[70%] border-b-1 border-t-0" src="images/hik.webp" alt="" />
-                    <h4 class="absolute left-1 bottom-7 text-xl">Grand Canions</h4>
-                    <div class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25">
-                        <i class="ri-poker-hearts-line"></i>
+            <div class="w-full h-12 overflow-x-scroll">
+                <div class="flex items-center w-[1000px] h-full">
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>All</h3>
                     </div>
-                </div>
-                <div class="border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden">
-                    <img class="absolute top-0 w-full h-[70%] border-b-1 border-t-0" src="images/hik.webp" alt="" />
-                    <h4 class="absolute left-1 bottom-7 text-xl">Grand Canions</h4>
-                    <div class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25">
-                        <i class="ri-poker-hearts-line"></i>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>Forest</h3>
+                    </div>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>Beach</h3>
+                    </div>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>nature</h3>
+                    </div>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>Mountains</h3>
+                    </div>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>River</h3>
+                    </div>
+                    <div
+                        class="flex items-center border-[1px] h-[80%] rounded-full px-4 mx-[5px] bg-emerald-400 hover:bg-emerald-600"
+                    >
+                        <h3>Canions</h3>
                     </div>
                 </div>
             </div>
-            <!-- repetition card -->
-             <div class="relative border-1 w-[98%] h-70 mt-1 rounded-2xl overflow-hidden">
-                <img class="absolute top-0 w-full h-[70%] border-b-1 border-t-0" src="images/hik.webp" alt="River" />
-                <h3 class="absolute bottom-12 left-7 text-2xl">
-                    Yellow River
-                </h3>
-                <p class="absolute bottom-8 left-7 text-sm">
-                    By lan Jacobson
-                </p>
-                <div class="absolute z-1 text-4xl text-[#787171] right-3 top-2">
-                    <i class="ri-poker-hearts-line"></i>
-                </div>
-                <p class="absolute right-28 bottom-16 text-xs">China</p>
-                <div class="absolute right-36 bottom-16 text-xs">
-                    <i class="ri-map-pin-line"></i>
-                </div>
-                <p class="absolute right-13 bottom-16 text-xs">15 min</p>
-                <div class="absolute right-23 bottom-16 text-xs ">
-                    <i class="ri-time-line"></i>
-                </div>
-                <p class="absolute right-3 bottom-16 text-xs">12k</p>
-                <div class="absolute right-8 bottom-16 text-xs">
-                    <i class="ri-eye-line"></i>
-                </div>
-            </div>
-            <!-- repetition -->
-             <div class="flex justify-between w-[98%] h-50 overflow-hidden mt-3">
-                <div class=" border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden">
-                    <img class="absolute top-0 w-full h-[70%] border-b-1 border-t-0" src="images/hik.webp" alt="" />
-                    <h4 class="absolute left-1 bottom-7 text-xl">Grand Canions</h4>
-                    <div class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25">
+            <div class="flex justify-center flex-wrap items-center h-[1100px]">
+                <div
+                    class="relative w-110 h-70 mt-1 rounded-2xl border-1 overflow-hidden"
+                >
+                    <img
+                        class="absolute top-0 w-full h-[70%] border-b-1"
+                        src="images/hik.webp"
+                        alt="River"
+                    />
+                    <h3 class="absolute bottom-12 left-7 text-2xl">
+                        Yellow River
+                    </h3>
+                    <p class="absolute bottom-8 left-7 text-sm">
+                        By lan Jacobson
+                    </p>
+                    <div
+                        class="absolute z-1 text-4xl text-[#787171] right-3 top-2"
+                    >
                         <i class="ri-poker-hearts-line"></i>
                     </div>
+                    <p class="absolute right-28 bottom-16 text-xs">China</p>
+                    <div class="absolute right-36 bottom-16 text-xs">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    <p class="absolute right-13 bottom-16 text-xs">15 min</p>
+                    <div class="absolute right-23 bottom-16 text-xs">
+                        <i class="ri-time-line"></i>
+                    </div>
+                    <p class="absolute right-3 bottom-16 text-xs">12k</p>
+                    <div class="absolute right-8 bottom-16 text-xs">
+                        <i class="ri-eye-line"></i>
+                    </div>
                 </div>
-                <div class="border-2 relative w-[48%] h-[100%] rounded-2xl overflow-hidden">
-                    <img class="absolute top-0 w-full h-[70%] border-b-1 border-t-0" src="images/hik.webp" alt="" />
-                    <h4 class="absolute left-1 bottom-7 text-xl">Grand Canions</h4>
-                    <div class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25">
+                <div
+                    class="flex justify-between w-110 h-50 overflow-hidden mt-3"
+                >
+                    <div
+                        class="border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden"
+                    >
+                        <img
+                            class="absolute top-0 w-full h-[70%] border-b-1 border-t-0"
+                            src="images/hik.webp"
+                            alt=""
+                        />
+                        <h4 class="absolute left-1 bottom-7 text-xl">
+                            Grand Canions
+                        </h4>
+                        <div
+                            class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25"
+                        >
+                            <i class="ri-poker-hearts-line"></i>
+                        </div>
+                    </div>
+                    <div
+                        class="border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden"
+                    >
+                        <img
+                            class="absolute top-0 w-full h-[70%] border-b-1 border-t-0"
+                            src="images/hik.webp"
+                            alt=""
+                        />
+                        <h4 class="absolute left-1 bottom-7 text-xl">
+                            Grand Canions
+                        </h4>
+                        <div
+                            class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25"
+                        >
+                            <i class="ri-poker-hearts-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- repetition card -->
+                <div
+                    class="relative border-1 w-110 h-70 mt-1 rounded-2xl overflow-hidden"
+                >
+                    <img
+                        class="absolute top-0 w-full h-[70%] border-b-1 border-t-0"
+                        src="images/hik.webp"
+                        alt="River"
+                    />
+                    <h3 class="absolute bottom-12 left-7 text-2xl">
+                        Yellow River
+                    </h3>
+                    <p class="absolute bottom-8 left-7 text-sm">
+                        By lan Jacobson
+                    </p>
+                    <div
+                        class="absolute z-1 text-4xl text-[#787171] right-3 top-2"
+                    >
                         <i class="ri-poker-hearts-line"></i>
+                    </div>
+                    <p class="absolute right-28 bottom-16 text-xs">China</p>
+                    <div class="absolute right-36 bottom-16 text-xs">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    <p class="absolute right-13 bottom-16 text-xs">15 min</p>
+                    <div class="absolute right-23 bottom-16 text-xs">
+                        <i class="ri-time-line"></i>
+                    </div>
+                    <p class="absolute right-3 bottom-16 text-xs">12k</p>
+                    <div class="absolute right-8 bottom-16 text-xs">
+                        <i class="ri-eye-line"></i>
+                    </div>
+                </div>
+                <!-- repetition -->
+                <div
+                    class="flex justify-between w-110 h-50 overflow-hidden mt-3"
+                >
+                    <div
+                        class="border-1 relative w-[48%] h-[100%] rounded-2xl overflow-hidden"
+                    >
+                        <img
+                            class="absolute top-0 w-full h-[70%] border-b-1 border-t-0"
+                            src="images/hik.webp"
+                            alt=""
+                        />
+                        <h4 class="absolute left-1 bottom-7 text-xl">
+                            Grand Canions
+                        </h4>
+                        <div
+                            class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25"
+                        >
+                            <i class="ri-poker-hearts-line"></i>
+                        </div>
+                    </div>
+                    <div
+                        class="border-2 relative w-[48%] h-[100%] rounded-2xl overflow-hidden"
+                    >
+                        <img
+                            class="absolute top-0 w-full h-[70%] border-b-1 border-t-0"
+                            src="images/hik.webp"
+                            alt=""
+                        />
+                        <h4 class="absolute left-1 bottom-7 text-xl">
+                            Grand Canions
+                        </h4>
+                        <div
+                            class="absolute z-1 text-4xl text-[#787171] right-2 top-0.25"
+                        >
+                            <i class="ri-poker-hearts-line"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="border-2 flex justify-evenly items-center fixed bottom-0 left-0 rounded-full bg-[#ffffff] z-4 w-full h-20 ">
-            <div class="flex flex-col items-center bg-emerald-400 hover:bg-emerald-600 w-18 h-18 rounded-2xl" >
-                <div class="text-3xl" >
-                    <i class="ri-home-4-line "></i>
+            <div
+                class="border-2 flex justify-evenly items-center fixed bottom-0 left-0 rounded-full bg-[#ffffff] z-4 w-full h-20"
+            >
+                <div
+                    class="flex flex-col items-center bg-emerald-400 hover:bg-emerald-600 w-18 h-18 rounded-2xl"
+                >
+                    <div class="text-3xl">
+                        <i class="ri-home-4-line"></i>
+                    </div>
+                    <h4>Home</h4>
                 </div>
-                <h6>Home</h6>
-            </div>
-            
-            <div class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl" >
-                <div class="text-3xl">
-                    <i class="ri-map-pin-line"></i>
-                </div>
-                <h6>Location</h6>
-            </div>
-            <div class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl" >
-                <div class="text-3xl">
-                    <i class="ri-heart-3-line"></i>
-                </div>
-                <h6>whishlist</h6>
-            </div>
-            <div class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl" >
-                <div class="text-3xl">
-                    <i class="ri-user-3-line"></i>
-                </div>
-                <h6>Profile</h6>
 
+                <div
+                    class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl"
+                >
+                    <div class="text-3xl">
+                        <i class="ri-map-pin-line"></i>
+                    </div>
+                    <h4>Location</h4>
+                </div>
+                <div
+                    class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl"
+                >
+                    <div class="text-3xl">
+                        <i class="ri-heart-3-line"></i>
+                    </div>
+                    <h4>whishlist</h4>
+                </div>
+                <div
+                    class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl"
+                >
+                    <a
+                        class="flex flex-col items-center hover:bg-emerald-600 w-18 h-18 rounded-2xl"
+                        href="profile.html"
+                    >
+                        <div class="text-3xl">
+                            <i class="ri-user-3-line"></i>
+                        </div>
+                        <h4>Profile</h4>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
